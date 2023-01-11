@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+<style>
+  
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+position: absolute;
+left: -10%;
+top: -50%;
+}
+
+.bijelapozadina{
+  position: absolute;
+  top: 2000px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.logo2 {
+position: absolute;
+left: -10%;
+top:-50%;
+}
+
+.izgledNav{
+  position: absolute;
+  background-color: #363434;
+  width: 100%;
+  top:5025px;
+}
+
+.izgledNav2{
+  position: absolute;
+  background-color: #363434;
+  width: 100%;
+  top: 0;
+}
+.mainSlika {
+position: absolute;
+top: 100px;
+width: 100%;
+height: 50%;
+}
+
+.mainSlika2 {
+position: absolute;
+top: 660px;
+left: 0%;
+width: 100%;
+font-size: large;
+
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+}
+
+.textodslike2{
+  left:50%;
+  width: 500px;
+  height: 500px;
+}
+
+
+.crta {
+  position: absolute;
+  top: 950px;
+  left: 25%;
+  height: 1px;
+  width: 50%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.mainSlika69 {
+position: absolute;
+top: 40%;
+width: 100%;
+left: 61%;
+
+}
+
+.sekcija1 {
+  position: absolute;
+  top: 1000px;
+  width: 100%;
+  left: 0%;
+  margin-top:90px;
+  margin-left: auto; 
+  margin-right: auto;
+  -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  text-align: justify;
+
+}
+
+
+.mainSlika3 {
+position: absolute;
+top: 2000px;
+width: 100%;
+}
+
+.sekcijaodslike4{
+  position: absolute;
+  top: 2625px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-left: auto; 
+  margin-right: auto;
+  -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  text-align: justify;
+}
+
+.slika4 {
+
+  top:0px;
+  left: 66%;
+}
+
+
+.slika4ponovo {
+
+  top:0px;
+  left: 10%;
+}
+
+.textodslike4 {
+
+  top:50px;
+  width: 300px;
+  height: 300px;
+
+}
+
+
+.mainslika5{
+  position: absolute;
+  top:3800px;
+  width: 100%;
+  
+}
+
+.sekcijaodslike5{
+  position: absolute;
+  top: 3200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+
+  margin-top:90px;
+  margin-left: auto; 
+  margin-right: auto;
+  -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  text-align: justify;
+}
+
+.slika5 {
+  top:0px;
+ 
+}
+
+.textodslike5 {
+  
+
+  width: 300px;
+  height: 200px;
+}
+
+.slika5ponovo {
+
+  top: 0px;
+  left:10%;
+}
+
+.ocjene {
+  position: absolute;
+  top: 3700px;
+  left: 25%;
+  width: 50%;
+}
+
+.text1 {
+  position: absolute;
+  left: 0%;
+  width: 33%;
+  top: 70%;
+}
+
+.text2 {
+  position: absolute;
+  left: 35%;
+  width: 33%;
+  top: 70%;
+}
+
+.text3 {
+  position: absolute;
+  left: 70%;
+  width: 33%;
+  top: 70%;
+}
+
+.naslov {
+  position: absolute;
+  left: 46.5%;
+  top: -50%;
+}
+
+.text4 {
+  position: absolute;
+  left: 15%;
+  width: 307px;
+  top: 70%;
+}
+
+.text5 {
+  position: absolute;
+  left: 41.5%;
+  width: 307px;
+  top: 70%;
+}
+
+.text6 {
+  position: absolute;
+  left: 68%;
+  width: 307px;
+  top: 70%;
+}
+
+
+.slikeMotora{
+  position: absolute;
+  top: 2400px;
+  height: 600px;
+  width: 300px;
+  left: 70%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+
+}
+
+.centarcontainer{
+  position: absolute;
+  top:4400px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.textodnewslettera{
+  position: absolute;
+  width: 700px;
+}
+.container {
+  position: absolute;
+  top: 70%;
+  width: 500px;
+  padding: 20px;
+  background-color: #272727;
+}
+input[type=submit] {
+
+  background-color: #5e1717;
+  color: white;
+  border: none;
+  width: 30%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  align-self: center;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.navMenu {
+  position: absolute;
+  top: 57px;
+  left: 25%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 150px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-align:center;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(0px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(74px);
+  transform: translateX(74px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(230px);
+  transform: translateX(230px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(380px);
+  transform: translateX(380px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu2 {
+  position: absolute;
+  top: 5075px;
+  left: 25%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu2 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 150px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-align:center;
+}
+
+.navMenu2 a:hover {
+  color: #fddb3a;
+}
+
+p:hover{
+  transition: all 0.2s ease-in-out;
+  color: #fddb3a;
+}
+
+.navMenu2 .dot {
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(0px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu2 a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(74px);
+  transform: translateX(74px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu2 a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(230px);
+  transform: translateX(230px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu2 a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(380px);
+  transform: translateX(380px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100%;
+}
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  
+}
+
+img {
+    transition:transform 0.25s ease;
+}
+
+.anim:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+
+
+
+</style>
+
+
+
+</head>
+<body text="#fff">
+
+  <!-- Navigacija -->
+  <div class="izgledNav2">
+  
+    
+
+    &zwnj;
+    <br>
+    &zwnj;
+    <br>
+    &zwnj;
+    <br>
+    &zwnj;
+    <br>
+    &zwnj;
+    <br>
+    &zwnj;
+    <br>
+
+    <nav class="navMenu">
+
+      
+
+      <a href="mainBoro.html">Početna</a>
+      <a href="Info.html">Informacije</a>
+      <a href="Kontakt.html">Kontakt</a>
+
+      <div class="dot"></div>
+      
+      <div class="logo">
+        <img src="LogoBoro.png"  width = "60"  height = "55" style = "border-radius: 50%;">
+      </div>
+
+    </nav>
+    </div>
+
+
+<!-- Navigacija -->
+
+
+
+
+
+
+<div class = "mainSlika">
+  <img src="mainSlika.jpg" width="49.6%" height="100%">
+  
+  <img src="mainSlika2.jpg" width="50%" height="100%">
+
+</div>
+
+
+<div class = "mainSlika2">
+  
+<div class="textodslike2">
+  <center>
+  <h1>Veliki izbor <strong>garažnih vrata<strong> na jednom mjestu!</h1><br>
+  Tvrtka BORINA GARAŽA nudi veliki izbor Garažnih vrata, Parkirnih rampi i Motora za vrata po vrlo prihvatljivim cijenama.<br>
+  Veliki izbor: Motora za garažna vrata i lese. Parkirnih rampi i čuvara parkinga. <br>
+  Daljinskih upravljača za vrata.
+  <br>
+  <center>
+</div>
+  </div>
+
+<div class="crta">
+
+</div>
+
+<div class="sekcija1">
+
+  <div class="naslov">
+  <h1>PONUDA</h1>
+  </div>
+ 
+<center>
+    <div class="text4">
+      <img class="anim" src="Slika1.png" width="308" height="480">
+      <p>Zaštitari parkinga</p>
+      <br> Želite sačuvati svoje parkirno mjesto? Najefikasnije i najjeftinije rješenje su upravo čuvari parkinga (parking barijere). Zbog svoje jednostavnosti rukovanja, niske cijene, kvalitete i pouzdanosti, čuvari parkinga nameću se kao pravi izbor za riješavanje probema kod osiguranja privatnog parking mjesta
+    </div>
+  <br>
+    <div class="text5">
+      <img class="anim" src="Slika2.jpg" width="308" height="480">
+      <p>Motori za dvorišna vrata</p>
+      <br>
+      Motori za garažna vrata renomiranim talijanskih proizvođača Beninca, Came, Bft i Nice nude široku paletu proizvoda. Uz jamstvo od 36 mjeseci možete naći motorne pogone za sve vrste garažnih vrata. Njemački proizvođač nudi motore s jamstvom od čak 60 mjeseci. Namjena motora za kućnu ili industrijsku upotrebu.
+    </div>
+    <div class="text6">
+      <img class="anim" src="Slika3.png" width="308" height="480">
+      <p>Motori za garažna vrata i paneli</p>
+      <br>
+      Motori za garažna vrata renomiranim talijanskih proizvođača Beninca, Came, Bft i Nice nude široku paletu proizvoda. Uz jamstvo od 36 mjeseci možete naći motorne pogone za sve vrste garažnih vrata. Njemački proizvođač nudi motore s jamstvom od čak 60 mjeseci. Namjena motora za kućnu ili industrijsku upotrebu.</div>
+    
+    <span class="stretch"></span>
+  </center>
+</div>
+
+
+
+<div class="mainSlika3">
+
+  <img src="Supreme.jpg" width="39.5%" height="600">
+  <img src="mainslika3.jpg" width="60%"height="600">
+</div>
+
+
+<div class="sekcijaodslike4">
+  
+
+  <div class="slika4" alt="Rampe za parking"> 
+
+    <img class="anim" src="slika4.jpg" width="400px" height="400px">
+  
+  </div>
+
+<div class="textodslike4">
+  <h1>Rampe</h1> 
+  <br>
+  Parkirne podizne rampe namjenjenu su za kontrolu ulaska-izlaska s parkirališta. 
+  Mogućnost nadogradnje su mnogobrojne: led bljeskalice, fiksnim ili mobilnim stupićima, magnetne petlje, semafori, fotočelije, otvaranje rampe daljinskim upravljačima, mobitelom, tipkalom... 
+  Neograničen broj korisnika rampe.
+</div>
+
+
+
+<div class="slika4ponovo"> 
+
+
+  <img class="anim" src="slika4ponovo.jpg" width="400px" height="400px">
+
+</div>
+
+
+
+</div>
+
+
+<div class="sekcijaodslike5">
+
+  <div class="slika5ponovo"> 
+
+    <img class="anim" src="krilnimotor.jpg" width="400px" height="400px">
+  
+  </div>
+<div class="textodslike5">
+  <h1>Krilni motori</h1> 
+  <br>
+  Motori za krilna dvorišna vrata i lese renomiranim talijanskih proizvođača Beninca, Came, Bft i Nice nude široku paletu proizvoda. Uz jamstvo od 36 mjeseci možete naći motorne pogone za sve vrste kapija i portuna. Namjena motora za kućnu ili industrijsku upotrebu. Mogućnosti nadogradnje su mnogobrojne: led bljeskalice, fotočelije, otvaranje motora daljinskim upravljačima, mobitelom, tipkalom i sl.</div>
+
+
+
+<div class="slika5"> 
+
+  <img class="anim" class="anim" src="slika5.png" width="400px" height="400px">
+
+</div>
+</div>
+
+<div class="mainslika5">
+
+  
+  <img src="mainslika5.jpg" width="100%" height="600">
+
+</div>
+
+
+<div class="centarcontainer">
+ 
+  <div class="container">
+
+    <input type="text" placeholder="Email address" name="mail" required>
+
+    <div>
+      <input type="submit" value="Subscribe">
+    </div>
+  </div>
+
+  <div class="textodnewslettera">
+    <h2>Postanite član!</h2>
+    <br>
+    <br>
+    Oduševljeni smo što ste ovdje! Sada, ako ne želite propustiti nove ponude, možete se pretplatiti na naš newsletter.
+  </div>
+
+   
+</div>
+  
+ <div class="izgledNav">
+  &zwnj;
+  <br>
+  &zwnj;
+  <br>
+  &zwnj;
+  <br>
+  &zwnj;
+  <br>
+  </div>
+
+  <nav class="navMenu2">
+    <a href="mainBoro.html">Početna</a>
+        <a href="Info.html">Informacije</a>
+        <a href="Kontakt.html">Kontakt</a>
+    <div class="dot"></div>
+    <div class="logo2">
+      <img src="LogoBoro.png"  width = "60"  height = "55" style = "border-radius: 50%;">
+      </div>
+  </nav>
+
+<!-- Preloader -->
+<div class="loader-wrapper">
+<span class="loader"></span>
+</div>
+<!-- Preloader -->
+
+
+
+
+
+<script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        }); // Preloader 
+
+
+
+ </script>
+
+</body>
+</html>
+

@@ -1,0 +1,527 @@
+<html>
+<head> 
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="styles.css" />
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+position: absolute;
+left: -10%;
+top: -50%;
+}
+
+
+.izgledNav{
+  position: absolute;
+  background-color: #363434;
+  width: 100%;
+  top:2455px;
+  left:0%;
+}
+
+.navMenu {
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .navMenu a {
+    color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 150px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-align:center;
+  }
+  
+  .navMenu a:hover {
+    color: #fddb3a;
+  }
+  
+  .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #fddb3a;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(0px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(74px);
+  transform: translateX(74px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(230px);
+  transform: translateX(230px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(380px);
+  transform: translateX(380px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+  
+  .navMenu2 {
+    position: absolute;
+    top: 2500px;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .navMenu2 a {
+    color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 150px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-align:center;
+  }
+  
+  .navMenu2 a:hover {
+    color: #fddb3a;
+  }
+  
+  .navMenu2 .dot {
+    width: 6px;
+    height: 6px;
+    background: #fddb3a;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(0px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+ 
+.navMenu2 a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(74px);
+  transform: translateX(74px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu2 a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(230px);
+  transform: translateX(230px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu2 a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(380px);
+  transform: translateX(380px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+
+  .izgledNav2{
+  position: absolute;
+  background-color: #363434;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.onama{
+    position: absolute;
+    top: 500px;
+    left: 0%;
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    
+}
+
+
+
+.team {
+  position: absolute;
+  top: 1500px;
+  left: -2.5%;
+
+  width: 100%;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+  margin-top:90px;
+  margin-left: auto; 
+  margin-right: auto;
+  -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  text-align: justify;
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0
+}
+
+.text1 {
+  position: absolute;
+  left: 10%;
+  width: 307px;
+  top: 60%;
+}
+
+.text2 {
+  position: absolute;
+  left: 35%;
+  width: 307px;
+  top: 60%;
+}
+
+.text3 {
+  position: absolute;
+  left: 60%;
+  width: 307px;
+  top: 60%;
+}
+
+.text4 {
+  position: absolute;
+  left: 85%;
+  width: 200px;
+  top: 60%;
+}
+
+.text5 {
+  position: absolute;
+  left: 10%;
+  width: 307px;
+  top: 200%;
+}
+
+.text6 {
+  position: absolute;
+  left: 35%;
+  width: 307px;
+  top: 200%;
+}
+
+.text7 {
+  position: absolute;
+  left: 60%;
+  width: 307px;
+  top: 200%;
+}
+
+.text8 {
+  position: absolute;
+  left: 85%;
+  width: 200px;
+  top: 200%;
+}
+
+.button {
+	--x: 50%;
+	--y: 50%;
+	
+	position: relative;
+  
+  top: 100%;
+ 
+  height: 500px;
+  width: 700px;
+	appearance: none;
+	padding: 1em 2em;
+	color: white;
+	cursor: pointer;
+	outline: none;
+  font-size: 150%;
+	border: 2px solid transparent;
+	background: linear-gradient(#363434, #363434) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) border-box;
+}
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
+
+
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); 
+    transform:scale(1.5);
+}
+  </style>
+</head>
+
+<body text="#fff">
+
+    <div class="izgledNav2">
+        &zwnj;
+        <br>
+        &zwnj;
+        <br>
+        &zwnj;
+        <br>
+        &zwnj;
+        <br>
+        &zwnj;
+        <br>
+        &zwnj;
+        <br>
+        </div>
+    
+    
+    <!-- Navigacija -->
+    <nav class="navMenu">
+      <a href="mainBoro.html">Početna</a>
+      <a href="Info.html">Informacije</a>
+      <a href="Kontakt.html">Kontakt</a>
+          <div class="dot"></div>
+
+          <div class="logo">
+            <img src="LogoBoro.png"  width = "60"  height = "55" style = "border-radius: 50%;">
+            </div>
+
+        </nav>
+    <!-- Navigacija -->
+    
+
+    <div class="onama">
+        <center>
+       <h1> O nama </h1>
+       <h3> priča </h3>
+       <br>
+       <br>
+       <br>
+       <br>
+       <button class="button">
+        Pokrenuto u Zagrebu, Borjan Antonio je imao viziju da svaka garaža ima svoja vrata i tako je krenulo.<br> Uz svoj tim uspio je staviti svoj san u pokret.<br> Do 2025 planira ostvariti svoj san da svaka garaža ima svoja predivna vrata.
+      </button>
+      
+    
+      <span class="stretch"></span>
+        </center>
+      
+        
+     
+    </div>
+
+   
+      
+    
+  
+
+    <div class="team"> 
+      <center>
+      <h1>TIM</h1>
+      </center>
+      
+      <br>
+
+      <br>
+      <br>
+      <br>
+      <div class="text1">
+        <img src="Portret.png" width="100" height="100" style="border-radius: 50%;">
+        <p>Borjan Antonio</p>
+        <br>
+        Direktor
+      </div>
+      <div class="text2">
+        <img src="Portret2.jpeg" width="100" height="100" style="border-radius: 50%;">
+        <p>Borjan Antonio</p>
+        <br>
+        Programer - FrontEnd
+      </div>
+      <div class="text3">
+        <img src="Portret3.jpeg" width="100" height="100" style="border-radius: 50%;">
+        <p>Borjan Antonio</p>
+        <br>
+        Programer - BackEnd
+      </div>
+      <div class="text4">
+        <img src="Portret8.jpeg" width="100" height="100" style="border-radius: 50%;">
+        <p>Borjan Antonio</p>
+        <br>
+        Menađer
+      </div>
+
+      
+      
+      
+      
+    
+      <span class="stretch"></span>
+
+      <div class="text5">
+      <img src="Portret5.jpeg" width="100" height="100" style="border-radius: 50%;">
+      <p>Borjan Antonio</p>
+      <br>
+      Čistačica
+      </div>
+      <div class="text6">
+      <img src="Portret6.jpeg" width="100" height="100" style="border-radius: 50%;">
+      <p>Borjan Antonio</p>
+      <br>
+      Domar
+      </div>
+      <div class="text7">
+      <img src="Portret7.jpeg" width="100" height="100" style="border-radius: 50%;">
+      <p>Borjan Antonio</p>
+      <br>
+      Programer - Javascript
+      </div>
+      <div class="text8">
+      <img src="Portret1.jpeg" width="100" height="100" style="border-radius: 50%;">
+      <p>Borjan Antonio</p>
+      <br>
+      Kuhar
+      </div>
+
+      
+      
+      
+      
+      <span class="stretch"></span>
+    </div>
+
+
+
+
+    <div class="izgledNav">
+        &zwnj;
+        <br>
+        &zwnj;
+        <br>
+        &zwnj;
+        <br>
+        &zwnj;
+        <br>
+        </div>
+    <nav class="navMenu2">
+      <a href="mainBoro.html">Početna</a>
+      <a href="Info.html">Informacije</a>
+      <a href="Kontakt.html">Kontakt</a>
+        <div class="dot"></div>
+        
+
+        <div class="logo">
+          <img src="LogoBoro.png"  width = "60"  height = "55" style = "border-radius: 50%;">
+          </div>
+
+      </nav>
+
+
+      <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+
+      <script>
+
+      document.querySelector('.button').onmousemove = (e) => {
+
+      const x = e.pageX - e.target.offsetLeft
+      const y = e.pageY - e.target.offsetTop
+
+      e.target.style.setProperty('--x', `${ x }px`)
+      e.target.style.setProperty('--y', `${ y }px`)
+
+}
+
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        }); // Preloader 
+
+
+      </script>
+
+    </body>
+</html>
